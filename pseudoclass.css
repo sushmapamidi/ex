@@ -1,0 +1,32 @@
+nav li a:hover{
+    color: violet;
+    
+}
+nav a:active{
+    background-color: yellow;
+}
+nav ul li a:link{
+    color: darkgreen;
+}
+.links ul li a:visited{
+    font-style: italic;
+}
+h2:hover{
+    background-color: red;
+}
+h2:active{
+    text-decoration: underline solid green;
+}
+.links a:last-child{
+    color: brown;
+}
+nav ul li:nth-child(odd){
+    background-color: yellow;
+}
+.paragraphs p:nth-child(3){
+    color: red;
+}
+input:focus{
+    border: 5px solid violet ;
+}
+

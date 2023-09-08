@@ -1,0 +1,19 @@
+.container{
+    background-color: brown;
+    width:400px;
+    height:200px;
+    flex-direction:column;
+    display: flexbox;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+   align-items: flex-end;
+    
+    
+}
+.item{
+    background-color: blue;
+    width:50px;
+    height:40px;
+    margin: 4px;
+    
+}

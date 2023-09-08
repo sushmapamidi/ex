@@ -1,0 +1,42 @@
+body{
+    background-image: url('food.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page ul li {
+    justify-content:space-between;
+    flex-direction: row;
+    display: flex;
+align-items: center;
+position: relative;
+display: inline-block;
+transition: 0.5s;
+
+}
+.page ul li a{
+    text-decoration: none;
+}
+button{
+    background-color: yellow;
+    padding: 1%;
+    width: 190PX;
+    cursor: pointer;
+}
+.page ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color:red ;
+    position: absolute;
+    left: 0;
+    bottom: -0px;
+    transition: 0.5s;
+}
+.page ul li:hover::after{
+    width: 70%;
+
+}
+.signup{
+    justify-content: flex-end;
+    margin: 5%;
+}

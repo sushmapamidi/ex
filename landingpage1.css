@@ -1,0 +1,124 @@
+
+/*body{
+    background-image: url('home.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    shape-image-threshold:inherit;
+}
+.landingpage{
+    padding: 20%;
+}
+.navbar{
+    width: 5%;
+    display: flex;
+    margin:1vh;
+    align-items: center;
+    justify-content: space-between;
+    text-align:end;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 0px;
+}
+.boxes{
+    padding-bottom: ;
+    padding-left: 500px;
+   padding-inline-start: 40%;
+   padding-top: 20px;
+   align-items: center;
+   
+}*/
+.landingpage{
+    width:100%;
+    height: 100vh;
+    background-image:url('home.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 60%;
+    margin: auto;
+    padding: 25px ;
+    padding-left: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.navbar ul li{
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    color:aliceblue;
+    text-decoration: none;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color:red ;
+    position: absolute;
+    left: 0;
+    bottom: -0px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+.cont{
+    text-align: center;
+   padding: 8%;
+}
+/*button{
+    /*align-items: center;
+    /*width: 200px;
+    /*margin: 10px 150px ;
+    padding:10px;
+    border-radius: 25px;
+    margin: 10px;
+}*/
+button{
+    position:relative;
+    width: 200px;
+    padding: 15px 50px;
+    text-align: center;
+    margin: 1% 15%;
+    font-weight: bold;
+    border: 100px;
+    cursor: pointer;
+    border-radius: 25px;
+    position: relative;
+  font-weight: 400;
+  overflow: hidden;
+
+
+}
+
+/*.content{
+    margin: 1% 10%;
+}*/
+span{
+    background-color:aqua;
+    border-radius: 25px;
+    position: absolute;
+    transition: 0.5s;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    z-index: 2;
+    
+}
+button:hover span{
+    width: 100%;
+}
+
+
+   
